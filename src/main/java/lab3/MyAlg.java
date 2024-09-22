@@ -1,4 +1,4 @@
-package lab2;
+package lab3;
 
 import org.uncommons.watchmaker.framework.*;
 import org.uncommons.watchmaker.framework.operators.EvolutionPipeline;
@@ -12,9 +12,9 @@ import java.util.Random;
 public class MyAlg {
 
     public static void main(String[] args) {
-        int dimension = 2; // dimension of problem
-        int populationSize = 10; // size of population
-        int generations = 10; // number of generations
+        int dimension = 10; // dimension of problem
+        int populationSize = 98; // size of population
+        int generations = 5000; // number of generations
 
         Random random = new Random(); // random
 
